@@ -1,0 +1,149 @@
+.nav a {
+  margin-left: 10px;
+  text-decoration: none;
+  font-family: "Blinker";
+  font-size: 25px;
+  color: black;
+}
+
+/* CSS */
+button {
+  font-family: "Blinker";
+  align-items: center;
+  background-color: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 0.25rem;
+  box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+  box-sizing: border-box;
+  color: rgba(0, 0, 0, 0.85);
+  cursor: pointer;
+  display: inline-flex;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 1.25;
+  margin: 10px 50px;
+  min-height: 3rem;
+  padding: calc(0.875rem - 1px) calc(2.5rem - 1px);
+  position: relative;
+  text-decoration: none;
+  transition: all 250ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  width: auto;
+}
+
+button:hover,
+button:focus {
+  border-color: rgba(0, 0, 0, 0.15);
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+  color: rgba(0, 0, 0, 0.65);
+  background-color: rgba(219,200,255, 0.3);
+}
+
+button:hover {
+  transform: translateY(-1px);
+}
+
+button:active {
+  background-color: #f1f1f1;
+  border-color: rgba(0, 0, 0, 0.15);
+  box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px;
+  color: rgba(0, 0, 0, 0.65);
+  transform: translateY(0);
+}
+
+.menu {
+  float: right;
+  text-align: center;
+}
+
+.menu a {
+  padding: 0 10px;
+}
+
+.body {
+  display: flex;
+  margin-top: 80px;
+  font-family: "IBM Plex Sans";
+}
+
+.profile {
+  text-align: center;
+}
+
+.name {
+  font-size: 70px;
+  margin: -60px 0;
+}
+
+.lastname {
+  margin-top: -60px;
+}
+
+.school {
+  font-style: italic;
+  font-size: 18px;
+  padding-top: 10px;
+}
+
+.intro {
+  font-size: 22px;
+  margin-top: 80px;
+  padding: 0 90px;
+  line-height: 140%;
+}
+
+.profilepic {
+  width: 100%;
+  height: 500px;
+  text-align: center;
+  background-color: #dbc8ff;
+}
+
+.toppic {
+  width: 80%;
+  margin-top: 25px;
+}
+
+.footer hr {
+  margin: 50px 40px 40px 40px;
+}
+
+.contact {
+  display: flex;
+  font-family: "IBM Plex Sans";
+  margin-bottom: 50px;
+}
+
+.contact p {
+  font-size: large;
+  font-weight: 600;
+}
+.contact a {
+  color: black;
+  text-decoration: none;
+}
+
+.contact a:visited {
+  color: black;
+}
+
+.contact a:hover {
+  text-decoration: underline;
+}
+
+.email {
+  width: 30%;
+  margin-left: 50px;
+}
+
+.github {
+  width: 30%;
+}
+
+.linkedin {
+  width: 30%;
+}
