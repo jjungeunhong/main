@@ -1,0 +1,25 @@
+* {
+    font-family: "IBM Plex Sans";
+}
+
+.header {
+    text-align: center;
+    align-items: center;
+}
+
+.header-title {
+    font-size: 80px;
+    font-weight: 600;
+}
+
+.header div {
+    width: 70%;
+    height: 50px;
+    background-color: #dbc8ff;
+    margin: auto;
+    margin-top: -120px;
+}
+
+.header-download {
+    font-size: 24px;
+}

@@ -1,0 +1,21 @@
+.nav a {
+    margin-left: 10px;
+    text-decoration: none;
+    font-family: "Blinker";
+    font-size: 25px;
+    color: black;
+  }
+
+  .menu {
+    float: right;
+    text-align: center;
+  }
+  
+  .menu a {
+    padding: 0 15px;
+  }
+
+  .menu a:hover {
+    text-decoration: underline;
+  }
+  
